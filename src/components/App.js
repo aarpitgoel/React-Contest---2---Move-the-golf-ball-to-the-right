@@ -34,7 +34,7 @@ class App extends Component {
       );
     } else return;
   }
-  //bind ArrowRight keydown event
+
   componentDidMount() {
     document.addEventListener("keydown", this.onKeyPressed.bind(this));
   }
